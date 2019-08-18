@@ -1,0 +1,9 @@
+<div id="quizz-language">
+    <p><%= changeLanguage %></p>
+    <% for (const language of languages) { %>
+    <p><input type="radio" name="language" value="<%= language.code %>" id="<%= language.htmlId %>"
+            <%= language.isSelected ? 'checked' : '' %> /><label
+            for="<%= language.htmlId %>"><%= language.value %></label></p>
+    <% } %>
+</div>
+<hr />

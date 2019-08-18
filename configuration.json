@@ -1,0 +1,16 @@
+{
+    "server": {
+        "port": 8888
+    },
+    "session": {
+        "secret": "1234"
+    },
+    "database": {
+        "password": {
+            "salt": "1234"
+        }
+    },
+    "window": {
+        "title": "Quizz wiki connection"
+    }
+}

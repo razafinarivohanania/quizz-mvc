@@ -1,0 +1,8 @@
+<div id="quizz">
+    <p><%= question %></p>
+    <% for (const response of responses) { %>
+    <p><input type="radio" name="quizz" id="<%= response.htmlId %>" data-href="nextPath" /><label
+            for="<%= response.htmlId %>"><%= response.value %></label></p>
+    <% } %>
+    <p><button data-href="previousPath"><%= previous %></button></p>
+</div>

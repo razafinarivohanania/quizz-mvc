@@ -1,0 +1,38 @@
+{
+    "Welcome": {
+        "fr": "Bienvenue"
+    },
+    "to": {
+        "fr": "dans"
+    },
+    "Change language": {
+        "fr": "Changer de langue"
+    },
+    "Begin": {
+        "fr": "Commencer"
+    },
+    "Username": {
+        "fr": "Nom d'utilisateur"
+    },
+    "Password": {
+        "fr": "Mot de passe"
+    },
+    "I have no account": {
+        "fr": "Je n'ai pas de compte"
+    },
+    "Login": {
+        "fr": "Connecter"
+    },
+    "JavaScript is disabled": {
+        "fr": "JavaScript est désactivé"
+    },
+    "Username is empty": {
+        "fr": "Nom d'utilisateur vide"
+    },
+    "Password is empty": {
+        "fr": "Mot de passe vide"
+    },
+    "Username and/or password is incorrect": {
+        "fr": "Nom d'utilisateur et/ou mot de passe incorrect"
+    }
+}

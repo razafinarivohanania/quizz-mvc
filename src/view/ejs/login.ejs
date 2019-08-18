@@ -1,0 +1,11 @@
+<% if (notification) { %>
+<div><%= notification %></div>
+<% } %>
+<div id="login">
+    <form action="/login" method="post">
+        <p><%= username %> : <input type="text" name="username" /></p>
+        <p><%= password %> : <input type="password" name="password" /></p>
+        <p><button type="button" data-href="/signup" data-role="link"><%= noAccount %></button><input type="submit"
+                value="<%= login %>" /></p>
+    </form>
+</div>

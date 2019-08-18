@@ -1,0 +1,13 @@
+<% if (notification) { %>
+<div><%= notification %></div>
+<% } %>
+<div id="signup">
+    <form action="/signup" method="post">
+        <p><%= name %> : <input type="text" name="name" /></p>
+        <p><%= firstName %> : <input type="text" name="firstName" /></p>
+        <p><%= username %> : <input type="text" name="username" /></p>
+        <p><%= password1 %> : <input type="password" name="password1" /></p>
+        <p><%= password2 %> : <input type="password" name="password2" /></p>
+        <p><button type="button" data-href="/login" data-role="link"><%= hasAccount %></button><input type="submit" value="<%= signup %>"/>
+    </form>
+</div>
